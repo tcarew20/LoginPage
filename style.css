@@ -1,0 +1,69 @@
+body{
+    background-image: url(milky_way.jpg);
+    background-size: cover; 
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+form{
+    background: rgb(0, 0, 0, 0.7);
+    font-family: sans-serif;
+    color:#fff;
+    width:20vw;
+    height:60vh;
+    padding:2em;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+h1{
+    border:none;
+    padding:0.2em 0em;
+    border-bottom: 7px solid #0000cc;
+    width: 35%;
+    margin-bottom:1em; 
+}
+.text{
+    width:100%;
+    margin:1em 0em;
+}
+.fields{
+    width:100%;
+    margin:1em 0em;
+    color:#fff;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom:1px solid #fff; 
+}
+.button{
+    width:100%;
+    margin: 1.25em 0em;
+    padding:0.5em 0em;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0000cc;
+}
+.button:hover{
+    cursor:pointer;
+    color:#0000cc;
+    background-color: #fff;
+    border-color: #0000cc;
+    transition:ease-in-out 300ms;
+}
+form a{
+    text-decoration: none;
+    color:#ccc;
+    margin:0.25em;
+    font-size: 12px;
+}
+form a:hover{
+    cursor:pointer;
+    color:#0000cc;
+    transition:ease-in-out 300ms;
+}
